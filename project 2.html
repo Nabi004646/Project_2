@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <style>
+        *{
+            box-sizing: border-box ;
+        }
+        body {
+            background-color: #f0f2f5;
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .container {
+            text-align: left;
+            max-width: 400px;
+            padding: 20px;
+            background-color: white;
+            border-radius: 8px;
+            
+        }
+        h1 {
+            color: #1877f2;
+            font-size: 36px;
+            margin: 0;
+        }
+        p {
+            color: #606770;
+            margin: 10px 0 20px 0;
+        }
+        input{
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        button {
+            width: 100%;
+            padding: 10px;
+            background-color: #1877f2;
+            border: none;
+            color: white;
+            font-size: 16px;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #165eab;
+        }
+        .forgot-password {
+            display: block;
+            margin-top: 10px;
+            text-align: center;
+            color: #1877f2;
+            text-decoration: none;
+            font-size: 14px;
+        }
+        .create-account {
+            background-color: #42b72a;            margin-left : 65px ;
+            width: 170px ;
+            height : 30px ;
+            display : flex ;
+            flex-direction : row ;
+            justify-content : center;
+            align-items : center ;
+        }
+        .create-account a {
+            color: white;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>facebook</h1>
+        <p>connect with friends and the world around you on facebook</p>
+        <input type="text" placeholder="Email or phone number" />
+        <input type="password" placeholder="Password" />
+        <button>Log in</button>
+        <a href="" class="forgot-password">forgot password?</a>
+        <hr>
+        <div class="create-account">
+            <a href="">Create new account</a>
+        </div>
+    </div>
+</body>
+</html>
