@@ -13,7 +13,7 @@
 ## 🔥 Project Overview
 
 🎯 **Project 2** is part of our _"Coders and Programmers"_ learning community.  
-📘 It’s crafted with love to help beginners learn **HTML, CSS, JavaScript**, and creative project deployment.
+📘 It’s crafted with love to help beginners learn **HTML, CSS**, and creative project deployment.
 
 > 🧩 **Goal:** Real-world learning through actual project development  
 > 🤝 **Built by:** Our passionate coding community members
@@ -23,7 +23,7 @@
 ## 🌐 Live Demo
 
 🎉 **Experience the Project Live Here:**  
-🔗 [🌍 Visit the Live Website →]nbasicproject2.netlify.app
+🔗 [🌍 Visit the Live Website →](nbasicproject2.netlify.app)
 
 ---
 
